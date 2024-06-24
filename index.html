@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boligprisstatistikk</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Boligprisstatistikk</h1>
+      <label for="city-select">Velg sted:</label>
+      <select id="city-select" class="city-select">
+        <option value="" disabled selected>Velg</option>
+        <option value="Oslo">Oslo</option>
+        <option value="Bergen">Bergen</option>
+        <option value="Trondheim">Trondheim</option>
+        <option value="Stavanger m/omegn">Stavanger m/omegn</option>
+        <option value="Kristiansand m/omegn">Kristiansand m/omegn</option>
+        <option value="Tromsø">Tromsø</option>
+        <option value="Norge">Norge</option>
+      </select>
+      <div id="statistics">
+        <!-- Statistics will be displayed here -->
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
